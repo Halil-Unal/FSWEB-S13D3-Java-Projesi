@@ -6,9 +6,8 @@ public class Wall {
 
     public Wall(double width,double height){
         checkWidth(width);
-        checkHeight(height);
-        this.height=height;
-        this.width=width;
+      checkHeight(height);
+
     }
 public double getWidth(){
         return this.width;
